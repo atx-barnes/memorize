@@ -11,7 +11,7 @@
 		474F9EAE251C570A002336F4 /* EmojiMemoryGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474F9EAD251C570A002336F4 /* EmojiMemoryGame.swift */; };
 		4777B63F24AD313A00D82CB0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777B63E24AD313A00D82CB0 /* AppDelegate.swift */; };
 		4777B64124AD313A00D82CB0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777B64024AD313A00D82CB0 /* SceneDelegate.swift */; };
-		4777B64324AD313A00D82CB0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777B64224AD313A00D82CB0 /* ContentView.swift */; };
+		4777B64324AD313A00D82CB0 /* EmojiMemoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4777B64224AD313A00D82CB0 /* EmojiMemoryGameView.swift */; };
 		4777B64524AD314300D82CB0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4777B64424AD314300D82CB0 /* Assets.xcassets */; };
 		4777B64824AD314300D82CB0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4777B64724AD314300D82CB0 /* Preview Assets.xcassets */; };
 		4777B64B24AD314300D82CB0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4777B64924AD314300D82CB0 /* LaunchScreen.storyboard */; };
@@ -42,7 +42,7 @@
 		4777B63B24AD313A00D82CB0 /* Memorize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Memorize.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4777B63E24AD313A00D82CB0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4777B64024AD313A00D82CB0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4777B64224AD313A00D82CB0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4777B64224AD313A00D82CB0 /* EmojiMemoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiMemoryGameView.swift; sourceTree = "<group>"; };
 		4777B64424AD314300D82CB0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4777B64724AD314300D82CB0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4777B64A24AD314300D82CB0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 			children = (
 				4777B63E24AD313A00D82CB0 /* AppDelegate.swift */,
 				4777B64024AD313A00D82CB0 /* SceneDelegate.swift */,
-				4777B64224AD313A00D82CB0 /* ContentView.swift */,
+				4777B64224AD313A00D82CB0 /* EmojiMemoryGameView.swift */,
 				474F9EA8251C54ED002336F4 /* MemoryGame.swift */,
 				474F9EAD251C570A002336F4 /* EmojiMemoryGame.swift */,
 				4777B64424AD314300D82CB0 /* Assets.xcassets */,
@@ -205,7 +205,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1150;
-				LastUpgradeCheck = 1150;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Jackson Barnes";
 				TargetAttributes = {
 					4777B63A24AD313A00D82CB0 = {
@@ -276,7 +276,7 @@
 				4777B63F24AD313A00D82CB0 /* AppDelegate.swift in Sources */,
 				4777B64124AD313A00D82CB0 /* SceneDelegate.swift in Sources */,
 				474F9EA9251C54ED002336F4 /* MemoryGame.swift in Sources */,
-				4777B64324AD313A00D82CB0 /* ContentView.swift in Sources */,
+				4777B64324AD313A00D82CB0 /* EmojiMemoryGameView.swift in Sources */,
 				474F9EAE251C570A002336F4 /* EmojiMemoryGame.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +350,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -410,6 +411,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
